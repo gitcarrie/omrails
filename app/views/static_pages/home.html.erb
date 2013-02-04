@@ -1,13 +1,12 @@
 <% if user_signed_in? %>
-<h1>Success! You're signed in</h1>
+<h1>Success! You're signed in. You're so darn special.</h1>
 <% else %>
 <div class="center hero-unit">
-    <h1>Welcome to One Month Rails</h1>
+    <h1>Welcome to Carrie's First Rails application!</h1>
 
     <h2>
-      You've found the home page for the
-      <a href="http://omrails.com/">One Month Rails</a>
-      first application.
+      I've basically followed instructions from
+      <a href="http://omrails.com/">One Month Rails</a>.
     </h2>
 
     <%= link_to "Sign up now!", new_user_registration_path, 
