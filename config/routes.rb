@@ -1,5 +1,7 @@
 Omrails::Application.routes.draw do
   
+  get "pages/Special"
+
   devise_for :users #added in devise gem
 
   #get "static_pages/home"
